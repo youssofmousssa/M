@@ -1,0 +1,16 @@
+user:
+  name: youssof
+  github: youssofmoussa
+
+language: "python"
+python_version: "3.11"
+
+commands:
+  build:
+    - apt update && apt install -y ffmpeg
+    - pip install -r requirements.txt
+  start:
+    - python3 ai.py
+
+env:
+  - TELEGRAM_TOKEN=7567951774:AAEeyDqHnaC7uuPUvw_wAoW6WF9iZ0pO_NE
