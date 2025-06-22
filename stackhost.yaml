@@ -10,7 +10,7 @@ commands:
     - apt update && apt install -y ffmpeg
     - pip install -r requirements.txt
   start:
-    - python3 ai.py
+    - python3 dd.py
 
 env:
   - TELEGRAM_TOKEN=7567951774:AAEeyDqHnaC7uuPUvw_wAoW6WF9iZ0pO_NE
