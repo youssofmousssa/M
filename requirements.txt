@@ -1,5 +1,0 @@
-python-telegram-bot==20.7
-yt-dlp
-pydub==0.25.1
-SpeechRecognition==3.10.0
-ffmpeg-python
